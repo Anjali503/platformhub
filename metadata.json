@@ -1,0 +1,6 @@
+{
+  "name": "PlatformHub",
+  "description": "An AI-powered opportunity discovery platform matching students and early career developers with internships, hackathons, open source programs, and scholarships.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
