@@ -1,6 +1,10 @@
 # PlatformHub
 
-PlatformHub is a modern AI-inspired opportunity discovery platform built with React, TypeScript, and Vite. The platform helps students and professionals discover internships, hackathons, scholarships, fellowships, open-source programs, remote jobs, and career opportunities through an intuitive dashboard experience.
+🚀 **Live Demo:** https://platformhub-sand.vercel.app
+
+PlatformHub is a modern opportunity discovery platform designed to help students and early-career professionals explore internships, hackathons, scholarships, fellowships, open-source programs, remote jobs, and career growth opportunities through a clean and interactive user experience.
+
+---
 
 ## Features
 
@@ -8,50 +12,50 @@ PlatformHub is a modern AI-inspired opportunity discovery platform built with Re
 
 * Browse opportunities across multiple categories
 * Search and filter opportunities
-* View detailed opportunity information
-* Save opportunities for later review
+* Opportunity detail pages
+* Save/bookmark opportunities
 
-### AI Recommendations
+### AI-Inspired Recommendations
 
 * Personalized recommendation interface
 * Skill-based opportunity matching
-* Career goal tracking
+* Career-focused suggestions
 * Opportunity scoring system
 
 ### Dashboard
 
-* Modern analytics dashboard
-* Opportunity statistics
-* Activity tracking
-* Personalized insights
+* Interactive dashboard experience
+* Opportunity insights
+* User activity overview
+* Progress tracking
 
 ### Application Tracker
 
-* Track application progress
-* Status management
-* Visual workflow organization
+* Track applications visually
+* Multiple status stages
+
+  * Applied
+  * Under Review
+  * Interview
+  * Selected
+  * Rejected
 * Progress monitoring
 
 ### User Profile
 
 * Profile management
-* Skills and interests tracking
-* Personalized preferences
-* Saved opportunities management
+* Skills and interests
+* Personal preferences
+* Saved opportunities
 
-### Authentication UI
+### Modern UI/UX
 
-* Login interface
-* Signup interface
-* Form validation
-* User-friendly error handling
-
-### Responsive Design
-
-* Mobile-friendly
-* Tablet optimized
-* Desktop experience
-* Modern UI/UX design
+* Responsive design
+* Mobile-friendly experience
+* Dark mode support
+* Toast notifications
+* Smooth navigation
+* Accessibility improvements
 
 ---
 
@@ -62,18 +66,20 @@ PlatformHub is a modern AI-inspired opportunity discovery platform built with Re
 * React
 * TypeScript
 * Vite
-* CSS3
+* CSS
 
-### State Management
+### Storage
 
-* React Hooks
 * Local Storage
 
-### Development Tools
+### Deployment
+
+* Vercel
+
+### Version Control
 
 * Git
 * GitHub
-* Vercel
 
 ---
 
@@ -93,11 +99,11 @@ src/
 │   ├── AuthView.tsx
 │   ├── PricingView.tsx
 │   └── ContactView.tsx
-├── types.ts
-├── mockData.ts
-├── utils.ts
 ├── App.tsx
 ├── main.tsx
+├── mockData.ts
+├── types.ts
+├── utils.ts
 └── index.css
 ```
 
@@ -111,7 +117,7 @@ Clone the repository:
 git clone https://github.com/Anjali503/platformhub.git
 ```
 
-Navigate into the project:
+Move into the project directory:
 
 ```bash
 cd platformhub
@@ -123,7 +129,7 @@ Install dependencies:
 npm install
 ```
 
-Start the development server:
+Run locally:
 
 ```bash
 npm run dev
@@ -137,15 +143,13 @@ http://localhost:5173
 
 ---
 
-## Production Build
-
-Create a production build:
+## Build for Production
 
 ```bash
 npm run build
 ```
 
-Preview the production build:
+Preview production build:
 
 ```bash
 npm run preview
@@ -155,49 +159,53 @@ npm run preview
 
 ## Deployment
 
-This project is deployed using Vercel.
+The application is deployed on Vercel.
 
-Deploy your own version:
+Live Website:
 
-1. Fork the repository
-2. Import the project into Vercel
-3. Configure build settings:
+```text
+https://platformhub-sand.vercel.app
+```
 
-   * Build Command: `npm run build`
-   * Output Directory: `dist`
-4. Deploy
+---
+
+## Quality Assurance
+
+The project has undergone frontend QA testing including:
+
+* Build verification
+* TypeScript validation
+* Form validation testing
+* Accessibility improvements
+* Error boundary implementation
+* Local storage safety checks
+* Responsive design testing
+* Navigation testing
 
 ---
 
 ## Current Architecture
 
-This version of PlatformHub is a frontend-focused MVP.
+This project is currently a frontend-focused MVP.
 
-Data persistence currently uses:
+Data persistence uses:
 
-* Local Storage
+* Browser Local Storage
 * Client-side state management
 
-Future enhancements may include:
-
-* MongoDB Atlas integration
-* Node.js backend APIs
-* User authentication
-* Real-time notifications
-* Opportunity management dashboard
-* AI-powered recommendation engine
+No backend or database integration is currently required for operation.
 
 ---
 
-## Accessibility & Quality
+## Future Enhancements
 
-* Responsive design
-* Error boundaries
-* Form validation
-* Accessibility improvements
-* Local storage error handling
-* TypeScript type safety
-* Production build verified
+* MongoDB integration
+* Node.js backend APIs
+* User authentication system
+* Real-time notifications
+* Advanced recommendation engine
+* Admin dashboard
+* Opportunity management system
 
 ---
 
@@ -211,5 +219,4 @@ GitHub: https://github.com/Anjali503
 
 ## License
 
-This project is intended for educational, portfolio, and demonstration purposes.
-
+This project is created for educational, portfolio, and demonstration purposes.
